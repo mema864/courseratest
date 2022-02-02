@@ -12,7 +12,7 @@ h1{
 }
 
 .row{
-  width:  90%;
+  width:  100%;
   padding:  1px;
   margin-right: auto;
   margin-left: auto;
@@ -26,6 +26,7 @@ h1{
   background-color:  lightgray;
   position : relative;
   width:  90%;
+  height: 40%;
 
 }
 
@@ -43,7 +44,7 @@ h1{
 p{
   padding:  10px;
   margin-top:  40px;
-  margin-bottom: 0px;
+  margin-bottom: -1px;
   clear: left;
 }
 
