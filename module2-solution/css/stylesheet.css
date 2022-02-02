@@ -1,6 +1,8 @@
 *{
   box-sizing : border-box;
   font-family: cursive;
+  padding: 0px;
+  border:  0px;
 }
 
 h1{
