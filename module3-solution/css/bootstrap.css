@@ -4085,7 +4085,7 @@ textarea.form-control-lg {
 }
 
 .navbar-toggler-icon {
-  display: inline-block;
+    display:inline-block ;
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
@@ -4393,6 +4393,7 @@ textarea.form-control-lg {
 }
 .navbar-expand .offcanvas {
   position: inherit;
+
   bottom: 0;
   z-index: 1000;
   flex-grow: 1;
