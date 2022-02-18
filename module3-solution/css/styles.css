@@ -7,9 +7,12 @@ body{
 
 }
 
+
 #header-nav {
 	background-color:  gray;
-	border: 4px solid black
+	border: 3px solid black;
+	padding:  15px;
+
 }
 
 .navbar-brand{
@@ -20,7 +23,7 @@ body{
 
 .navbar-brand h1 {
 color:  #ffffff;
-font-size:  2.5em;
+font-size:  2.3em;
 line-height:  .75;
 font-weight:  bold;
 text-shadow:  1px 1px 1px #222;
@@ -53,11 +56,39 @@ width:  2.5em;
 height: .25em;
 }
 
-@media(min-width: 768px){
+@media(min-width: 576px){
 	.navbar-toggler{
 		display: none;
 	}
+	
 }
+
+@media(max-width:  575px){
+	/*.row div{
+		width: 360px;
+	}*/
+
+	.row{
+		margin-left:  auto;
+		margin-right:  auto;
+	}
+
+	.navbar-toggler-icon{
+background-color: papayawhip;
+width:  1.9em;
+height: .25em;
+
+}
+
+
+	
+}
+
+
+
+
+
+
 
 .navbar-toggler:hover{
 	background-color: lightsalmon;
@@ -92,22 +123,68 @@ li{
 }
 
 
-
-
-
-
-.container{
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-}
-
 .navbar-header{
 	margin-left: ;
 }
 
 h2{
 	font-weight:  bold;
-	font-size: 3em;
+	font-size: 2.2em;
 	margin-top: 20px;
+	color: white;
 }
+
+.row{
+	margin-top: 30px;
+}
+
+p{
+	font-size: 1.8em;
+	font-family: bold;
+}
+
+.row div{
+	background-color: gray;
+	border:  2px solid black;
+	margin-bottom: 60px;
+	padding:  40px;
+	position:  relative;
+}
+
+h3{
+	font-size: 2.1em;
+	font-family: bold;
+	margin-bottom:  20px;
+	color:  black;
+}
+ #chicken button{
+	position: absolute;
+	right:  10px;
+	bottom: 10px;
+	font-size: 1.5em;
+	background-color: lightpink;
+	font-weight: bold;
+}
+
+#beef button{
+	position: absolute;
+	right:  10px;
+	bottom: 10px;
+	font-size: 1.5em;
+	background-color: lightpink;
+	font-weight: bold;
+}
+
+#sushi button{
+	position: absolute;
+	right:  10px;
+	bottom: 10px;
+	font-size: 1.5em;
+	background-color: lightpink;
+	font-weight: bold;
+}
+
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1490px;
+  }
