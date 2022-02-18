@@ -41,10 +41,6 @@ margin-right: 10px;
 
 }
 
-#navbarSupportedContent{
-	background-color: lightyellow;
-}
-
 	
 
 .navbar-toggler{
@@ -108,7 +104,7 @@ div ul{
 }
 
 li{
-	font-size: 1.9em;
+	font-size: 1.5em;
 	font-weight:  bold;
 
 }
@@ -116,21 +112,16 @@ li{
 .nav-link{
 	color: black;
 }
-.nav-link.active{
-	background-color: ;
-
-}
-
-hr{
-color: black;
-height:  10px}
 
 
 a.nav-link:hover {
 		background-color: lightpink;
-		color: white;
+		color: black;
 		width: 100%;
 
+}
+a.nav-link{
+	background-color:  lightyellow;
 }
 
 
