@@ -40,6 +40,13 @@ margin-right: 10px;
 
 
 }
+
+#navbarSupportedContent{
+	background-color: lightyellow;
+}
+
+	
+
 .navbar-toggler{
 	float:  right;
 	position: absolute;
@@ -107,15 +114,19 @@ li{
 }
 
 .nav-link{
-	color: powderblue;
+	color: black;
 }
 .nav-link.active{
 	background-color: ;
 
 }
 
+hr{
+color: black;
+height:  10px}
 
-.nav-link:hover {
+
+a.nav-link:hover {
 		background-color: lightpink;
 		color: white;
 		width: 100%;
