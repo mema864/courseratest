@@ -135,7 +135,7 @@ function chooseRandomCategory (categories) {
 }
 
 
-// Load the menu categories view
+// Load the menu categries view
 dc.loadMenuCategories = function () {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
